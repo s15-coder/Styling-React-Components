@@ -10,3 +10,14 @@
 **Cons**
 
 - CSS code is not scoped to components -> it means that the a class with the same name may clash if it has been defined in different components.
+
+### Working with inline-styles in React
+
+**Pros**
+
+- The styles are scoped only for components.
+
+**Cons**
+
+- JSX Code is not separated from CSS code, which may lead to a high-coupled code.
+- The style rules are not reusable for many components.
