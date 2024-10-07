@@ -21,3 +21,16 @@
 
 - JSX Code is not separated from CSS code, which may lead to a high-coupled code.
 - The style rules are not reusable for many components.
+
+### Working with CSS module
+
+**Pros**
+
+- The styles are scoped only for components.
+- JSX code is separated form CSS code.
+- The style rules are reusable in the component
+- Allow developers to work separetely on the CSS styles.
+
+**Cons**
+
+- You may end up with many small CSS files
