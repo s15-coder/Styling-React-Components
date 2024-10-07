@@ -36,3 +36,13 @@
 - You may end up with many small CSS files
 
 ### Styled Components - Third party package
+
+**Pros**
+
+- The styles are scoped only for components.
+- The style rules are reusable in the component
+
+**Cons**
+
+- JSX Code is not separated from CSS code, which may lead to a high-coupled code.
+- You may end up with many small styled component functions.
