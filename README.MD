@@ -46,3 +46,17 @@
 
 - JSX Code is not separated from CSS code, which may lead to a high-coupled code.
 - You may end up with many small styled component functions.
+
+### Tailwind
+
+**Pros**
+
+- You don't need to be an expert in CSS
+- Yoy avoid styles clashes because you don't have any CSS class.
+- Highly configurable and extensible.
+
+**Cons**
+
+- Creates long className values.
+- There is not separation between JSX and the styling.
+- You end up with many wrapper components focused only in styling
