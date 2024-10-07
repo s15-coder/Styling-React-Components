@@ -34,3 +34,5 @@
 **Cons**
 
 - You may end up with many small CSS files
+
+### Styled Components - Third party package
